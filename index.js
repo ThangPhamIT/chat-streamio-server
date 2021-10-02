@@ -7,7 +7,7 @@ import twilio from 'twilio';
 // config
 config();
 const app = express();
-const port = process.env.SERVER_PORT || 9000;
+const port = process.env.PORT || 9000;
 
 // twilio 
 const accountSid = process.env.TWILIO_ACCOUNT_SID;
